@@ -1,0 +1,12 @@
+{
+  "name": "your-awesome-app",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-jshint": "~0.7.2",
+    "protractor": "~0.13.0",
+    "grunt-protractor-runner": "~0.1.9",
+    "grunt-karma": "~0.6.2",
+    "karma-spec-reporter": "0.0.6"
+  }
+}
