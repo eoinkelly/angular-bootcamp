@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('filters', ['underscore'])
+angular.module('filters', ['lodash'])
   .filter('range', function() {
     return function (input, min, max) {
       min = parseInt(min, 10);
