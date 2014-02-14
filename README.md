@@ -1,5 +1,7 @@
 # Wellington Start-up Weekend 2014 - Angular Bootcamp
 
+This repo contains two sample apps
+
 ## Links
 
 * Angular blog http://blog.angularjs.org/ - good for news etc.
@@ -10,7 +12,9 @@
   application has anything other than very basic routing needs
 * Angular and Rails: http://ngmodules.org/modules/angularjs-rails-resource -
  recommended if you are using rails 
-  
+
+
+
 ## Tests
 
 To run the tests:
