@@ -9,7 +9,7 @@
 * Angular UI https://github.com/angular-ui/ui-router is recommended if you
   application has anything other than very basic routing needs
 * Angular and Rails: http://ngmodules.org/modules/angularjs-rails-resource -
-  haven't tried this but it might be useful if you are hitting a Rails server 
+ recommended if you are using rails 
   
 ## Tests
 
