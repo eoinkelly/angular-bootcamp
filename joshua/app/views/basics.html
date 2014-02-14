@@ -1,0 +1,13 @@
+<div ng-include="'views/_header.html'"></div>
+
+
+<h1>Angular Basics</h1>
+
+<select ng-model="template">
+  <option>ng-model.html</option>
+  <option>ng-repeat.html</option>
+  <option>actions.html</option>
+</select>
+
+<div ng-include="'views/basics/' + template"></div>
+

@@ -1,0 +1,18 @@
+<h2><a href="http://docs.angularjs.org/api/ng.directive:ngModel">ng-model</a></h2>
+Variable: {{variable}}
+<ul>
+  <li><input ng-model="variable" /></li>
+  <li>
+    <select ng-model="variable">
+      <option>option 1</option>
+      <option>option 2</option>
+    </select>
+  </li>
+  <li>
+    <input type="checkbox" ng-model="variable" />
+  </li>
+  <li>
+    <label for="radio_1">Radio 1</label><input id="radio_1" type="radio" name="variable" ng-model="variable" value="radio_1" /><br/>
+    <label for="radio_2">Radio 2</label><input id="radio_2" type="radio" name="variable" ng-model="variable" value="radio_2" />
+  </li>
+</ul>
