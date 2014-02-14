@@ -1,0 +1,14 @@
+<h2><a href="http://docs.angularjs.org/api/ng.directive:ngRepeat">ng-repeat</a></h2>
+
+<input ng-model="query" />
+
+<h3>Div</h3>
+<div ng-repeat="item in list | filter:query" class="{{item}}" >
+  {{item}}
+</div>
+<h3>List</h3>
+<ul>
+  <li ng-repeat="item in list" >
+    {{item}}
+  </li>
+</ul>
