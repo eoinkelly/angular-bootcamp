@@ -28,6 +28,12 @@ This repo contains two sample apps
 * [ng-include expects an expression, strings must be explicit](http://stackoverflow.com/questions/12521905/angularjs-ng-include-does-not-include-view-unless-passed-in-scope)
 
 ### Servers
+
+Restangular is a good choice for communicating with a RESTful endpoint. It has a
+number of advantages over the built-in `$resource` service.
+* Restangular tutorial: http://www.ng-newsletter.com/posts/restangular.html
+* Restangular docs: https://github.com/mgonto/restangular
+
 ### Auth
 ### Routing
 

@@ -6,7 +6,8 @@ angular.module('controllers', ['home-ctrl', 'rest-test-ctrl']);
 // create the main application module
 angular.module('App', ['filters', 'controllers', 'directives', 'ngRoute', 'restangular'])
   
-  // configure Restangular service
+  // configure the Restangular service
+  // notice the Provider suffix - this lets the DI system know what module you are configuring
   .config(function(RestangularProvider) {
     // RestangularProvider.setBaseUrl('http://angular-bootcamp-demo.herokuapp.com');
     RestangularProvider.setBaseUrl('http://localhost:3000');
@@ -14,8 +15,6 @@ angular.module('App', ['filters', 'controllers', 'directives', 'ngRoute', 'resta
 
     // This is where you can hook into the requests and responses sent/recieved
     // by Restangular to massage them into what you want for your app.
-    // Restangular tutorial: http://www.ng-newsletter.com/posts/restangular.html
-    // Restangular docs: https://github.com/mgonto/restangular
 
     // can add element transformations here to add custom methods to Restangular objects
 
@@ -28,33 +27,6 @@ angular.module('App', ['filters', 'controllers', 'directives', 'ngRoute', 'resta
     // can add custom fields - this lets you map attributes on the backend to
     // different attributes in the Restangular objects in memory
   })
-
-  // Rectangular setup for MongoDB
-  // =============================
-  // TODO: 
-  // * change api key to your own
-  // * change database name from 'startup-wknd' to your own
-  // .constant('apiKey', 'your api key here')
-  //
-  // .config(function (RestangularProvider, apiKey) {
-  //   RestangularProvider.setBaseUrl('https://api.mongolab.com/api/1/databases/startup-wknd');
-  //   RestangularProvider.setDefaultRequestParams({
-  //     apiKey: apiKey
-  //   });
-  //   RestangularProvider.setRestangularFields({
-  //     id: '_id.$oid'
-  //   });
-  //
-  //   RestangularProvider.setRequestInterceptor(
-  //     function (elem, operation) {
-  //
-  //       if (operation === 'put') {
-  //         elem._id = undefined;
-  //         return elem;
-  //       }
-  //       return elem;
-  //     });
-  // })
 
   // configure $compile service
   .config(function ($compileProvider) {
