@@ -10,7 +10,13 @@
   application has anything other than very basic routing needs
 * Angular and Rails: http://ngmodules.org/modules/angularjs-rails-resource -
   haven't tried this but it might be useful if you are hitting a Rails server 
-  
+
+### Persistence
+* Hoist apps http://hoistapps.com - Wellington based start-up aiming for world
+  dominiation - free to try.
+* Mongolab https://mongolab.com - A hosted MongoDB - they have a free plan too.
+* Firebase https://www.firebase.com/ - Slick realtime messaging & peristence platform with great AngularJS support
+
 ## Tests
 
 To run the tests:
