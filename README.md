@@ -6,6 +6,7 @@ This repo contains two sample apps
 
 * Angular blog http://blog.angularjs.org/ - good for news etc.
 * Angular modules directory http://ngmodules.org/
+* Setting up a fresh angular install with Yeoman - http://www.sitepoint.com/kickstart-your-angularjs-development-with-yeoman-grunt-and-bower/
 * Restangular http://ngmodules.org/modules/restangular - an improved version of
   the built-in $resource
 * Angular UI https://github.com/angular-ui/ui-router is recommended if you
