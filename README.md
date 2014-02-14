@@ -12,17 +12,18 @@ This repo contains two sample apps
 * Angular UI https://github.com/angular-ui/ui-router is recommended if you
   application has anything other than very basic routing needs
 * Angular and Rails: http://ngmodules.org/modules/angularjs-rails-resource -
- recommended if you are using rails 
+ recommended if you are using rails
 
 
+## Suggestions
 
-## Tests
+### Organising code
+### DOM
 
-To run the tests:
+* [Conceptual overview of Angular for Jquery folks](http://stackoverflow.com/questions/14994391/how-do-i-think-in-angularjs-if-i-have-a-jquery-background)
 
-```shell
-$ cd /path/to/angular-bootcamp
-$ grunt unit # runs all unit tests through karma
-$ grunt e2e  # runs all end-to-end tests through protractor & webdriver 
-$ grunt test # run both unit tests and end-to-end tests
-```
+### Servers
+### Auth
+### Routing
+
+
