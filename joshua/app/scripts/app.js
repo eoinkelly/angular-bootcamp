@@ -12,6 +12,10 @@ angular.module('joshuaApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/basics', {
+          templateUrl: 'views/basics.html',
+          controller: 'BasicsCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
